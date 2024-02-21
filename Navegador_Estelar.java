@@ -20,7 +20,7 @@ public class public class Navegador_Estelar {
     }
 
     public static void main(String[] args) {
-        // Ejemplo de matrices para representar terreno y construcciones
+
         int[][] terreno = {
                 {0, 1, 0, 0},
                 {0, 0, 1, 0},
