@@ -1,6 +1,6 @@
 public class public class Navegador_Estelar {
 
-    // Método para multiplicar dos matrices
+
     public static int[][] multiplicarMatrices(int[][] matriz1, int[][] matriz2) {
         int filas1 = matriz1.length;
         int columnas1 = matriz1[0].length;
