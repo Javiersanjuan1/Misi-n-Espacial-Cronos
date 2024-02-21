@@ -37,7 +37,6 @@ public class public class Navegador_Estelar {
         // Multiplicar matrices para optimizar rutas y recursos
         int[][] resultado = multiplicarMatrices(terreno, construcciones);
 
-        // Visual
         System.out.println("Resultado de la multiplicación de matrices:");
         for (int i = 0; i < resultado.length; i++) {
             for (int j = 0; j < resultado[0].length; j++) {
