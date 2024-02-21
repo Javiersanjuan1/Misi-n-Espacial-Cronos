@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-// Clase para representar factores críticos
 class FactorCritico {
     private String nombre;
     private double valor;
@@ -20,7 +19,6 @@ class FactorCritico {
     }
 }
 
-// Clase para manejar el sistema de monitoreo
 class SistemaMonitoreo {
     private List<FactorCritico> factoresCriticos;
     private int[] primos;

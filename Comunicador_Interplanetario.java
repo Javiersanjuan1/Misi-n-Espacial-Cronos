@@ -1,6 +1,5 @@
 public class Comunicador_Interplanetario {
 
-    // Función para contar vocales en un mensaje
     public static int contarVocales(String mensaje) {
         int contador = 0;
         String vocales = "aeiouAEIOU";
@@ -12,7 +11,6 @@ public class Comunicador_Interplanetario {
         return contador;
     }
 
-    // Función para invertir un mensaje
     public static String invertirMensaje(String mensaje) {
         StringBuilder invertido = new StringBuilder();
         for (int i = mensaje.length() - 1; i >= 0; i--) {
@@ -21,7 +19,6 @@ public class Comunicador_Interplanetario {
         return invertido.toString();
     }
 
-    // Función para verificar si un mensaje es un palíndromo
     public static boolean esPalindromo(String mensaje) {
         String limpio = mensaje.replaceAll("\\s+", "").toLowerCase();
         int longitud = limpio.length();
@@ -36,15 +33,12 @@ public class Comunicador_Interplanetario {
     public static void main(String[] args) {
         String mensaje = "Anita lava la tina";
 
-        // Contar vocales en el mensaje
         int numVocales = contarVocales(mensaje);
         System.out.println("Número de vocales en el mensaje: " + numVocales);
 
-        // Invertir el mensaje
         String mensajeInvertido = invertirMensaje(mensaje);
         System.out.println("Mensaje invertido: " + mensajeInvertido);
 
-        // Verificar si el mensaje es un palíndromo
         boolean esPalindromo = esPalindromo(mensaje);
         if (esPalindromo) {
             System.out.println("El mensaje es un palíndromo.");

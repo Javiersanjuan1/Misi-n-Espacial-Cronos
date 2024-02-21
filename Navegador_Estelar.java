@@ -1,4 +1,4 @@
-public class public class Navegador_Estelar {
+public class8 public class Navegador_Estelar {
 
 
     public static int[][] multiplicarMatrices(int[][] matriz1, int[][] matriz2) {

@@ -63,7 +63,7 @@ class PlanificadorTareas {
         }
     }
 
-    public int calcularCargaTrabajoOptima() {
+    public int () {
         int cargaTotal = 0;
         for (MiembroTripulacion miembro : tripulacion) {
             cargaTotal += miembro.getTareas().size();
@@ -76,11 +76,9 @@ public class SistemaOrganizacionTareas {
     public static void main(String[] args) {
         NavegadorEstelar sistema = new NavegadorEstelar();
 
-        // Crear miembros de la tripulación
         MiembroTripulacion tripulante1 = new MiembroTripulacion("Tripulante 1");
         MiembroTripulacion tripulante2 = new MiembroTripulacion("Tripulante 2");
 
-        // Agregar miembros a la tripulación
         sistema.agregarMiembro(tripulante1);
         sistema.agregarMiembro(tripulante2);
 
