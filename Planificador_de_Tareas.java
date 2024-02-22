@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-// Clase para representar una tar
+// Clase para representar
 class Tarea {
     private String nombre;
 
