@@ -42,7 +42,7 @@ class SistemaMonitoreo {
     }
 
     public void generarPrimos() {
-        int n = 1000; // Se puede ajustar según la cantidad necesaria de númer
+        int n = 1000; // Se puede ajustar según la cantidad necesaria
         primos = new int[n];
         primos[0] = 2;
         int count = 1;
