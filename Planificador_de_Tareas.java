@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-
 class Tarea {
     private String nombre;
 
@@ -14,7 +13,6 @@ class Tarea {
     }
 }
 
-// Clase para representar a un miembro de la tripulación
 class MiembroTripulacion {
     private String nombre;
     private List<Tarea> tareas;
@@ -37,7 +35,6 @@ class MiembroTripulacion {
     }
 }
 
-// Clase para organizar y distribuir tareas
 class PlanificadorTareas {
     private List<MiembroTripulacion> tripulacion;
 
@@ -82,16 +79,13 @@ public class SistemaOrganizacionTareas {
         sistema.agregarMiembro(tripulante1);
         sistema.agregarMiembro(tripulante2);
 
-        // Asignar tareas a los miembros
         sistema.asignarTarea(tripulante1, new Tarea("Limpiar cubierta"));
         sistema.asignarTarea(tripulante1, new Tarea("Revisar sistemas de navegación"));
         sistema.asignarTarea(tripulante2, new Tarea("Preparar comida"));
         sistema.asignarTarea(tripulante2, new Tarea("Reparar sistema de comunicación"));
 
-        // Visualizar tareas asignadas
         sistema.visualizarTareas();
 
-        // Calcular carga de trabajo óptima
         int cargaOptima = sistema.calcularCargaTrabajoOptima();
         System.out.println("Carga de trabajo óptima: " + cargaOptima);
     }
